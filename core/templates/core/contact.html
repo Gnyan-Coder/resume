@@ -1,0 +1,36 @@
+{% extends 'core/base.html' %}
+{% block content %}
+<div class="container mt-5">
+    <h1 class="text-warning mb-5 border-bottom">CONTACT US</h1>
+    <div class="row text-white mb-5">
+        <p class="mx-auto mb-5">
+            Do you have any questions? Please do not hesitate to contact. I will come
+            bavk to you within a matter of hours to help you.
+        </p>
+        <div class="col-sm-9 mb-5">
+            <form action="">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Your Name</label>
+                        <input type="text " class="form-control" id="input" placeholder="Enter your name" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="inputName">Your Email</label>
+                        <input type="email " class="form-control" id="input" placeholder="Enter your email" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputName">Your Subject</label>
+                    <input type="text" class="form-control" id="input" placeholder="Enter your email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="inputName">Your Message</label>
+                    <textarea name="area" id="area" cols="30" rows="5" class="form-control"></textarea>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock content %}
